@@ -99,7 +99,7 @@ main()
 	
 	            len=strlen(str1);
 	
-	            for(i=0;i<len;i++)
+	            for(i=0;str1[i]!='\0';i++)
 	                    str2[i] = str1[i];
                 printf("\n\n\tString 1        : %s", str1);
                 printf("\n\n\tString 2        : %s", str2);
